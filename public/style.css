@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    color: #808080;
+    font-family: "Lucida Sans", sans-serif;
+    margin: 0;
+    display: inline-block;
+  }
+
+.sidenav {
+    background-color: rgb(170, 174, 160);
+    position: fixed;
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    padding-top: 20px;
+    top: 0px;
+    left: 0px;
+    }
+
+.sidenav a {
+    display: block;
+    padding: 6px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    }
+
+.sidenav div {
+    display: block;
+    position: fixed;
+    top: 610px;
+    left: 25px;
+    color:azure;
+    font-size: 25px;
+    }
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    }
+
+a {
+    color:grey;
+    text-decoration: none;
+    
+    }
+
+a:visited {
+    color:grey;
+    text-decoration:none;
+    }
+
+a:active {
+    color:azure;
+    text-decoration:none;
+        }
+
+a:hover {
+    color:azure;
+    text-decoration:none;
+    }
+
+.content {
+    margin-left: 280px;
+    }
+
+.classBlock {
+    float: left;
+    padding: 21px;
+    }
+
+.imagestyle {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    }
+
+figure {
+    margin: 0px;
+    text-align: center;
+    }
+
+input {
+    margin: 4px 0px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    }
+
+select {
+    margin: 4px 0px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    }
+
+textarea {
+    margin: 4px 0px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    }
+
+ul {
+    list-style-type: "➮ ";
+    }
+
+ul.subinterests {
+    display: none;
+    position: fixed;
+    top: 105px;
+    left: 210px;
+    list-style-type: none;
+    background-color: rgb(155, 159, 145);
+    padding: 0;
+    }
+
+li.interests:hover ul.subinterests {
+    display: block;
+    }
+
+.menuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+
+.error {
+    background-color:rgb(251, 202, 183);
+    }
+
+.ok {
+    background-color:rgb(166, 249, 206);
+    }
+
+.table {
+    width: 500px;
+    float: left;
+    }
+
+.modal {
+    background-color: rgba(233, 233, 233, 0.8);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    }
+
+.img-modal {
+    width: 570px;
+    height: 570px;
+    position: fixed;
+    top: 30px;
+    left: 510px;
+    }
+
+.closeButton {
+    background-color:rgb(167, 185, 109);
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    left: 1290px;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
